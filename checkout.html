@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=789e4991-2011-40c1-ab45-227145046a2b&lang=ru_RU" type="text/javascript"></script>
+    <title>Womazing - Оформление заказа</title>
+</head>
+<body>
+    <header class="header-other">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html" class="nav__logo">
+                    <img src="img/vector-img/logo.svg" alt="Womazing">
+                </a>
+                <nav class="menu">
+                    <div class="menu__burger">
+                        <span></span>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="index.html" class="menu__item-link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">Магазин</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about.html" class="menu__item-link">О бренде</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contacts.html" class="menu__item-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu__contacts">
+                    <a href="#popup" class="popup__link">
+                        <svg class="menu__contacts_icon popup__link" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_18747_425)">
+                                <path d="M8.25241 7.81643C6.75058 9.31823 6.75058 11.7618 8.25238 13.2636L9.05007 12.4659C7.98816 11.404 7.98814 9.67613 9.0501 8.61417C10.112 7.55224 11.8399 7.55224 12.9018 8.61414L13.6995 7.81646C12.1978 6.31463 9.75418 6.31466 8.25241 7.81643Z" fill="#6E9C9F"/>
+                                <path d="M9.84127 9.39119C9.2091 10.0234 9.20907 11.052 9.84124 11.6842L10.639 10.8865C10.5458 10.7934 10.4945 10.6695 10.4945 10.5377C10.4945 10.406 10.5458 10.2821 10.639 10.1889C10.7322 10.0958 10.856 10.0444 10.9878 10.0444C11.1195 10.0444 11.2434 10.0958 11.3366 10.1889L12.1343 9.39122C11.5021 8.75902 10.4734 8.75902 9.84127 9.39119Z" fill="#6E9C9F"/>
+                                <path d="M19.7483 7.43513L17.8551 5.54848L13.9234 9.47367L15.4476 11.0478C15.1921 11.5013 14.6379 12.3699 13.6933 13.3145C12.7487 14.2592 11.8737 14.8197 11.4159 15.0792L9.87261 13.5556L6.00226 17.4029L7.8851 19.2983C8.60485 20.0181 9.69998 20.2046 10.6102 19.7625C11.9992 19.0879 14.0955 17.8431 16.1943 15.7443C18.2931 13.6455 19.5379 11.5492 20.2125 10.1602C20.3723 9.83109 20.45 9.47787 20.45 9.12692C20.45 8.5072 20.2078 7.89464 19.7483 7.43513ZM19.1977 9.66732C18.5609 10.9785 17.3845 12.9587 15.3966 14.9466C13.4087 16.9345 11.4285 18.1109 10.1174 18.7477C9.63935 18.9799 9.06287 18.8806 8.6842 18.5019L7.59746 17.4079L9.87543 15.1436L11.1901 16.4415L11.5419 16.2849C11.5991 16.2595 12.9595 15.6438 14.4912 14.1121C16.0239 12.5795 16.6267 11.2305 16.6515 11.1739L16.8041 10.8268L15.5068 9.48705L17.8559 7.14178L18.9512 8.23327C19.3307 8.6133 19.4298 9.18952 19.1977 9.66732Z" fill="#6E9C9F"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_18747_425">
+                                    <rect width="17" height="17" fill="white" transform="translate(6 3)"/>
+                                </clipPath>
+                            </defs>
+                        </svg> 
+                    </a>                   
+                    <a href="tel:+74958235412" class="tel">+7 (495) 823-54-12</a> 
+                </div>
+                <div class="cart">
+                    <a href="" class="cart__icon"></a>
+                </div>  
+                <a href="cart.html" class="menu__order-bag">
+                    <span>1</span>
+                    <img src="img/vector-img/shopping-bags.svg" alt="" class="menu__order-bag_icon">
+                </a>
+            </div>
+            <div class="inner">
+                <h1 class="inner__main-title">Оформление заказа</h1>
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>—</li>
+                    <li class="breadcrumb__name-page">Оформление заказа</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section section-checkout">
+        <div class="container">
+            <form action="mail.php" class="checkout__form form js-form">
+                <div class="checkout__form-item">
+                    <div class="checkout__form-wrapper checkout__form-wrapper_first">
+                        <h3 class="checkout__form-title form-title">Данные покупателя</h3>
+                        <input class="checkout__input input" type="text" name="name" placeholder="Имя" required>
+                        <input class="checkout__input input" type="text" name="email" placeholder="E-mail" required>
+                        <input class="checkout__input input" type="text" name="tel" placeholder="Телефон" required>
+                    </div>
+                    <div class="checkout__form-wrapper checkout__form-wrapper_first">
+                        <h3 class="checkout__form-title form-title">Адрес получателя</h3>
+                        <input class="checkout__input input" type="text" name="country" placeholder="Страна" required>
+                        <input class="checkout__input input" type="text" name="town" placeholder="Город" required>
+                        <input class="checkout__input input" type="text" name="street" placeholder="Улица" required>
+                        <input class="checkout__input input" type="text" name="house" placeholder="Дом" required>
+                        <input class="checkout__input input" type="text" name="apartment" placeholder="Квартира" required>
+                    </div>
+                    <div class="checkout__form-wwrapper checkout__form-wrapper_first">
+                        <h3 class="checkout__form-title form-title">Комментарии</h3>
+                        <textarea class="checkout__input-textarea checkout__input input" name="messaage" placeholder="Введите текст"></textarea>
+                    </div>
+                </div>
+                <div class="checkout__form-item checkout__form-item_second">
+                    <div class="checkout__form-wrapper checkout__form-wrapper_second">
+                        <h3 class="checkout__your-order-title form-title">Ваш заказ</h3>
+                        <table class="checkout__your-order-table">
+                            <tbody>
+                                <tr>
+                                    <th>Товар</th>
+                                    <th>Всего</th>
+                                </tr>
+                                <tr>
+                                    <td>Футболка USA</td>
+                                    <td>$129</td>
+                                </tr>
+                                <tr>
+                                    <td>Подытог</td>
+                                    <td>$129</td>
+                                </tr>
+                                <tr>
+                                    <td>Итого</td>
+                                    <td>$129</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="checkout__form-wrapper checkout__form-wrapper_second">
+                        <h3 class="checkout__form-title form-title">Способы оплаты</h3>
+                        <label class="form-checkout__label">
+                            <input class="real-radio-btn" type="radio" name="payment" checked>
+                            <span class="castom-radio-btn-payment"></span>
+                            Оплата наличными
+                        </label>
+                        <label class="form-checkout__label">
+                            <input class="real-radio-btn" type="radio" name="payment">
+                            <span class="castom-radio-btn-payment"></span>
+                            Оплата картой 
+                        </label>
+                        <button type="submit" class="checkout__btn btn-blue">Разместить заказ</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a href="#" class="footer__logo">
+                        <img src="img/vector-img/logo.svg" alt="Womazing">
+                    </a>
+                    <div class="privacy">
+                        <span class="footer__copyright">© Все права защищены</span>
+                        <a href="#" class="footer__privacy-policy footer__link">Политика конфиденциальности</a>
+                        <a href="#" class="footer__public-offer footer__link">Публичная оферта</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link footer__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="footer__menu-item footer__menu-item_shop">
+                            <a class="footer__menu-link footer__link" href="/shop">Магазин</a>
+                            <ul class="footer__submenu">
+                                <li class="footer__submenu-item">
+                                    <a href="#" class="footer__submenu-link footer__link">Пальто</a>
+                                </li>
+                                <li class="footer__submenu-item">
+                                    <a href="#" class="footer__submenu-link footer__link">Свитшоты</a>
+                                </li>
+                                <li class="footer__submenu-item">
+                                    <a href="#" class="footer__submenu-link footer__link">Кардиганы</a>
+                                </li>
+                                <li class="footer__submenu-item">
+                                    <a href="#" class="footer__submenu-link footer__link">Толстовки</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link footer__link" href="about.html">О бренде</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link footer__link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item footer__item_last">
+                    <div class="footer__contacts">
+                        <a href="tel:+380448235412" class="footer__tel footer__link">+38 (044) 823-54-12</a> 
+                    <a href="mailto:hello@womazing.com" class="footer__mail footer__link">hello@womazing.com</a> 
+                    </div>
+                    <div class="footer__socials">
+                        <!--noindex-->
+                        <a href="#" rel="nofollow noopener noreferrer" target="_blank" class="footer__social">
+                            <img class="footer__social-link" src="img/vector-img/instagram.svg" alt="instagram">
+                        </a>
+                        <!--/noindex-->
+                        <!--noindex-->
+                        <a href="#" rel="nofollow noopener noreferrer" target="_blank" class="footer__social-link">
+                            <img class="footer__social-link" src="img/vector-img/facebook.svg" alt="facebook">
+                        </a>
+                        <!--/noindex-->
+                        <!--noindex-->
+                        <a href="#" rel="nofollow noopener noreferrer" target="_blank" class="footer__social-link">
+                            <img class="footer__social-link" src="img/vector-img/twitter.svg" alt="twitter">
+                        </a>
+                        <!--/noindex-->
+                    </div>
+                    <img src="img/img-intro/visa-mastercard.png" alt="visa" class="footer__payment">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <button type="button" class="popup__close close-popup">
+                    <svg class="close-popup" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L15.5 15.5M15.5 1L1 15.5" stroke="black"/>
+                    </svg>
+                </button>
+                <h3 class="popup__title">Заказать обратный звонок</h3>
+                <form id="popup-form" action="mail.php" class="popup__form form js-form">
+                    <input class="popup__input input" type="text" name="name" placeholder="Имя" required>
+                    <input class="popup__input input" type="text" name="email" placeholder="E-mail" required>
+                    <input class="popup__input input" type="text" name="tel" placeholder="Телефон" required>
+                    <button type="submit" class="popup__submit btn-blue" data-submit>Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup-success popup" id="popup-success">
+        <div class="popup__body">
+            <div class="popup__content">
+                <h3 class="popup__title">Отлично! Мы скоро вам перезвоним.</h3>
+                <button type="button" class="close-popup btn-border">Закрыть</button>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script> 
+</body>
